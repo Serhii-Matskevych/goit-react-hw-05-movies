@@ -2,7 +2,7 @@
   "name": "goit-react-hw-05-movies",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://morysol.github.io/goit-react-hw-05-movies/",
+  "homepage": "https://serhii-matskevych.github.io/goit-react-hw-05-movies/",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
