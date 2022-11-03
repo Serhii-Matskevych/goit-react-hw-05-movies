@@ -8,9 +8,10 @@ const MovieDetails = lazy(() => import('components/Movies/MovieDetails'));
 const Cast = lazy(() => import('components/Cast/Cast'));
 const Reviews = lazy(() => import('components/Reviews/Reviews'));
 const NotFound = lazy(() => import(`components/pages/NotFound`))
-// import { NotFound } from '../../pages/NotFound';
-//
 // const SharedLayout = lazy(() => import('../SharedLayout/SharedLayout'));
+// import { NotFound } from '../../pages/NotFound';
+
+
 //
 
 const createAsyncComponent = path => {
