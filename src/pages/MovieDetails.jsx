@@ -1,5 +1,5 @@
 import { Outlet, useParams } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -81,9 +81,13 @@ export const MovieDetails = () => {
                 Отзывы зрителей
               </NavLink>
             </div>
+            
           </div>
-          <Outlet />
+          <Suspense fallback="">
+            <Outlet />
+             </Suspense>
         </>
+       
       )}
       {fetchedError && <p>{fetchedError}</p>}
     </main>
